@@ -7,7 +7,7 @@
           "128": "icon128.png" },
   "content_scripts": [
     {
-      "matches": ["https://*.instructure.com/"],
+      "matches": ["https://*.instructure.com/*"],
       "js": ["script.js"]
     }
   ]

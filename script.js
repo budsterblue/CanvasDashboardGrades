@@ -1,4 +1,5 @@
 function onloadcheck() {
+if (location.pathname == "/") {
 var courseGradesNum = [];
 var courseGradesID = [];
 var canvasURL = location.protocol+'//'+location.host+location.pathname + 'api/v1/courses?include[]=total_scores&per_page=100&enrollment_state=active'; 
@@ -36,5 +37,5 @@ for(var b=0, leng=courseBase.length; b<leng; b++) {
   }
 }
 });
-}
+}}
 window.onload = onloadcheck;
