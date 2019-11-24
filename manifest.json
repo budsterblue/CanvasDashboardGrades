@@ -1,6 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Canvas Dashboard Grades",
+  "short_name": "CDG",
+  "description": "A simple extension that adds your current grades to the dashboard in Canvas LMS",
   "version": "1.0",
   "icons": { "16": "icon16.png",
            "48": "icon48.png",
